@@ -1,0 +1,23 @@
+package javademo1;
+
+public class favademo1 {
+
+	public static void main(String[] args) {
+		int age = 22;
+		if (age>=18){
+		System.out.println(" you are eligible to vote");
+		}
+		else if (age==10){
+			System.out.println("U r Minor...plz grow up...");
+		}else if (age==5){
+			System.out.println("U r Kid...go and study...");
+		}else if (age==0){
+			System.out.println("The person is not exist...plz remove..");
+		}else{
+			System.out.println("you are not eleigible to vote");
+		}
+		
+
+	}
+
+}
